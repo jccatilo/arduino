@@ -102,4 +102,4 @@ led_blue.Blink();
 >Try the code above and it should do the same thing as the previous code; blinking 4 leds. There might be some work in setting up the objects but it is really noticeable that there the code in creating new objects and commands you want to execute in the loop are more **reproducable**, **maintainable**, and **readable/understandable**.
 
 This will do for now. 
-In the next tutorial, we will utilize a sensor called HC-SR04. There, we will really see the advantage of learning OOP since the sensor has needs to data pins and requires some calculation function to determine the distance of a certain object to it. See you!
+In the next tutorial, we will utilize a sensor called HC-SR04. There, we will really see the advantage of learning OOP since the sensor needs two data pins(one output mode, one input mode) and requires some calculation function to determine the distance of a certain object to it. See you!
