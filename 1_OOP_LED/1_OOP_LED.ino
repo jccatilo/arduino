@@ -7,12 +7,12 @@ class LED { // this will be the parent object name you created
       pin = led_pin;
       pinMode(pin, OUTPUT);// this line replaces the pinMode in setup() in the previous code
     }
-  void Blink(){ // this is a subclass which can be used by the objects under this parent object you will create
-    digitalWrite(pin, HIGH);
-    delay(500);
-    digitalWrite(pin, LOW);
-    delay(500);
-  }
+    void Blink() { // this is a subclass which can be used by the objects under this parent object you will create
+      digitalWrite(pin, HIGH);
+      delay(500);
+      digitalWrite(pin, LOW);
+      delay(500);
+    }
 };
 
 //Creating objects
@@ -29,9 +29,9 @@ void setup()
 
 void loop()
 {
-// format: <child>.<subclass>(parameter)
-led_green.Blink(); //no parameter was passed in our curent case but we can utilize this in other projects
-led_yellow.Blink();
-led_red.Blink();
-led_blue.Blink();
+  // format: <child>.<subclass>(parameter)
+  led_green.Blink(); //no parameter was passed in our curent case but we can utilize this in other projects
+  led_yellow.Blink();
+  led_red.Blink();
+  led_blue.Blink();
 }
