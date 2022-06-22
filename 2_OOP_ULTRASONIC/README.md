@@ -157,5 +157,5 @@ delay(500);
 
 10. We are done. Click this [link](https://www.tinkercad.com/things/idKq2mzaq5j-stunning-lahdi-amberis/) if you want to play with the project or if things doesn't go as you expect.
 
-If there are optimisations you know, feel free to contact me. Or comment anywhere in this repo. 
+If there are optimizations you know, feel free to contact me. Or comment anywhere in this repo. 
 Thank you!
