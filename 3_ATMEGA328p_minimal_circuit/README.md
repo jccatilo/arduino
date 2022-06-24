@@ -1,1 +1,1 @@
-useful resources: https://www.instructables.com/ESP-12F-ESP8266-Module-Minimal-Breadboard-for-Flas/
+good read: https://www.instructables.com/How-to-Build-an-Arduino-Uno-on-a-BreadBoard/
