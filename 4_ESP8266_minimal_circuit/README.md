@@ -1,0 +1,1 @@
+useful resources: https://www.instructables.com/ESP-12F-ESP8266-Module-Minimal-Breadboard-for-Flas/

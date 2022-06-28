@@ -44,10 +44,7 @@ class Ultrasonic {
       int distance = duration * 0.034 / 2; //formula to get distance in centimeters
       return distance;
     }
-
 };
-
-
 
 Wheels right_wheels(2, 3);
 Wheels left_wheels(4, 5);
@@ -73,7 +70,7 @@ void loop() {
     forward(a);
     f_Stop();
   }
-  delay(500);
+  delay(250);
 }
 
 void forward(int duration) {
@@ -88,7 +85,7 @@ void f_Stop() {
   Serial.println("Stop mode.");
   right_wheels.Stop();
   left_wheels.Stop();
-  delay(1000);
+  delay(250);
 }
 
 long get_sonar_value() {
@@ -120,11 +117,17 @@ void look_right() {
   f_Stop();
 }
 
-void reverse(){
+void reverse() {
   right_wheels.Reverse();
   left_wheels.Reverse();
   delay(200);
-  }
+}
+
+void turn_180() {
+  right_wheels.Reverse();
+  left_wheels.Forward();
+  delay(600);
+}
 
 long scan_area() {
   reverse();
@@ -138,16 +141,15 @@ long scan_area() {
   Serial.println("Scanning right....");
   long right = get_sonar_value();
   look_left();
-  if ((left>right) && (left>current) && (left>15)){
-  look_left();
+  if ((left > right) && (left > current) && (left > 15)) {
+    look_left();
   }
-  else if ((right>left) && (right>current)&& (right>15)){
+  else if ((right > left) && (right > current) && (right > 15)) {
     look_right();
-    }
+  }
   else {
-    reverse();
+    turn_180();
     f_Stop();
-    delay(1000);    
-    }
-  
+    delay(1000);
+  }
 }
