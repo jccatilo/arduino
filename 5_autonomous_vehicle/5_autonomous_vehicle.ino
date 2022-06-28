@@ -1,7 +1,6 @@
 class Wheels {
     int Pin1;
     int Pin2;
-
   public:
     Wheels(int pin1, int pin2) {
       Pin1 = pin1;
@@ -48,15 +47,14 @@ class Ultrasonic {
 
 Wheels right_wheels(2, 3);
 Wheels left_wheels(4, 5);
-
 Ultrasonic sonar_1(53, 52);
-
 int sonar_values[10];
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
 }
+
 void loop() {
   // put your main code here, to run repeatedly:
   //Serial.println(get_sonar_value());
@@ -110,6 +108,7 @@ void look_left() {
   delay(200);
   f_Stop();
 }
+
 void look_right() {
   right_wheels.Reverse();
   left_wheels.Forward();
