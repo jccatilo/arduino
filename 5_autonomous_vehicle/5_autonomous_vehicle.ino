@@ -12,7 +12,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //Serial.println(get_sonar_value());
   long a = get_sonar_value();
   if (a <= 10) {
     Serial.println("Obstruction detected.");
@@ -27,8 +26,6 @@ void loop() {
 }
 
 void forward(int duration) {
-  Serial.print("Going forward for ");
-  Serial.println(duration * 10); //for debugging
   right_wheels.Forward();
   left_wheels.Forward();
   delay(duration * 6);
