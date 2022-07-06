@@ -11,6 +11,7 @@ Files needed
 1. [ArduinoISP_jc.ino](https://github.com/jccatilo/arduino/blob/main/3_ATMEGA328p_minimal_circuit/ArduinoISP_jc/ArduinoISP_jc.ino) (I have modified this from ArduinoISP.ino to suit our arduino uno programmer and connection diagram)
 2. [breadboard-1-6-x.zip file](https://www.arduino.cc/en/uploads/Tutorial/breadboard-1-6-x.zip?_gl=1*104ebcy*_ga*MzQ5MjQ5MTU1LjE2NDc5OTk1MDc.*_ga_NEXN8H46L5*MTY1NzEyMDQ1NS4yNy4wLjE2NTcxMjA0NTUuNjA.) from arduino website.
 3. Arduino IDE (any version)
+4. [Blinky](https://github.com/jccatilo/arduino/blob/main/3_ATMEGA328p_minimal_circuit/Blink/Blink.ino) (just to test our guide)
 
 Conection diagram
 
@@ -31,7 +32,7 @@ Upload bootloader to ATMega328p
 9. If the physical connections are correct and steps above are observed, you should see a **Done uploading bootloader** in the IDE's terminal prompt. 
 
 Uploading a blinky program to your ATMega328p chip
-1. Open Blinky program in your IDE.
+1. Open [Blinky](https://github.com/jccatilo/arduino/blob/main/3_ATMEGA328p_minimal_circuit/Blink/Blink.ino) program in your IDE.
 2. Make sure to observe upload settings as stated in the **previous steps 6 and 7**.
 3. **DO NOT PRESS UPLOAD**
 4. In the toolbar, go to *Sketch* and press **Upload using Programmer**.
