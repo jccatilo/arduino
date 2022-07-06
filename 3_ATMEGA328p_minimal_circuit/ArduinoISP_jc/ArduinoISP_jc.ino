@@ -1,4 +1,4 @@
-//jc notes: 
+ //jc notes: 
 // * use arduino uno pls. for your own good.
 // * read the code.
 // * arduino uno    || atmega328p minimal circuit on breadboard
