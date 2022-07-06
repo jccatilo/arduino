@@ -12,3 +12,7 @@ Files needed
 2. [THIS](https://www.arduino.cc/en/uploads/Tutorial/breadboard-1-6-x.zip?_gl=1*104ebcy*_ga*MzQ5MjQ5MTU1LjE2NDc5OTk1MDc.*_ga_NEXN8H46L5*MTY1NzEyMDQ1NS4yNy4wLjE2NTcxMjA0NTUuNjA.) zip file from arduino website.
 
 Conection diagram
+
+![](images/atmega328p_pinout_custom_kicad.png)
+
+Upload bootloader to ATMega328p
