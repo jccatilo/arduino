@@ -35,4 +35,5 @@ Uploading a blinky program to your ATMega328p chip
 2. Make sure to observe upload settings as stated in the **previous steps 6 and 7**.
 3. **DO NOT PRESS UPLOAD**
 4. In the toolbar, go to *Sketch* and press **Upload using Programmer**.
-5. Everything should work fine.
+5. Everything should work fine. You can remove all other pin connections and just put the VCC and GND pins back.
+6. You now have a programming circuit and an ATMega328p chip you can use on you personal project. Have fun!
