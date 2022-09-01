@@ -1,11 +1,14 @@
-> Making your arduino code via OOP is a step up to regular line by line, function-based coding. 
-The main advantage of using OOP in arduino is when you have lots of sensor and motors and displays, which have common modes in declaration, instantiation, and just a few parameters change like pin number and what not. This has a deeper advantage which is that OOP makes your code flexible when adding more of something without repeatitive code. 
-a
+Making your arduino code via OOP is a step up to regular line by line, function-based coding. 
+
+The main advantage of using OOP in arduino is when you have lots of sensor and motors and displays, which have common declaration, instantiation, and just a few parameters change like pin number and what not. This has a deeper advantage which is that OOP makes your code flexible when adding more of something without repeatitive code. 
+
 In this lesson we will particularly use tinkerCAD so everyone can test the final code. And also we can appreciate virtual sensors and actuators that move on screen. 
 See [this](https://www.tinkercad.com/things/jr3d2wtCgg3-brilliant-tumelo-kup/) link for a quick glance of the final output for this tutorial.
 
 1. Go to tinkercad.com[](https://tinkercad.com) and create an acccount.
+
 2. After creation, select "Circuits" and then "Create new Circuit". Refer to image below.
+
 <img src = "images/1.png" alt="image 1" width=100%></img>
 
 3. Give you project a unique name (See A below). Click the dropdown menu in "B" and select "All" to give us all possible components in tinkercad.
@@ -21,7 +24,7 @@ See [this](https://www.tinkercad.com/things/jr3d2wtCgg3-brilliant-tumelo-kup/) l
 
 ![](images/5.png)
 
-- typical declaration will be:
+- the typical code to run this will be:
 
 ```
 int led_green = 10;
